@@ -1,0 +1,105 @@
+.search_container {
+    overflow: auto;
+    /*z-index: 10000;
+    position: absolute;
+    width: 22.5rem;
+    background-color: green;
+    
+    margin-top: -16px;
+    height: auto;
+    */
+}
+
+
+.search_results {
+    z-index: 10000;
+    width: 22.5rem;
+    position: absolute;
+    background-color: red;
+    overflow: auto;
+    margin-top: -16px;
+}
+
+.left {
+    width: 25%;
+    float: left;
+    background-color: orange;
+}
+
+.right {
+    width: 70%;
+    float: right;
+    background-color: pink;
+}
+
+.left > img {
+    width: 100%;
+}
+
+
+.gray-1 {
+    background-color: #333;
+}
+
+.gray-2 {
+    background-color: #555;
+}
+
+.gray-3 {
+    background-color: #777;
+}
+
+.gray-4 {
+    background-color: #999;
+}
+
+
+.height-1 {
+    height: 5.0rem;
+}
+
+
+.height-2 {
+    height: 15.0rem;
+}
+
+.height-4 {
+    height: 7.0rem;
+}
+
+.more-top {
+    margin-top: 2.0rem;
+}
+
+
+/* slick code */
+
+.slick-dots {
+    margin-bottom: 2.0rem;
+}
+
+.slick-dots li button::before {
+    color: white;
+    opacity: 0.5;
+    font-size: 0.6rem;
+    content: "n";
+    font-family: "Wingdings";
+}
+
+.slick-dots li:hover button::before {
+    color: yellow;
+}
+
+
+.slick-prev {
+    left: 0.75rem;
+}
+
+.slick-next {
+    right: 0.75rem;
+}
+
+.clearFloat {
+    float: none;
+    clear: both;
+}

@@ -1,0 +1,271 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        input {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="cell small-4 medium-3 large-2 flex">
+                    <img src="img/logo.svg" class="logo splash" />
+                    <p class="logo splash">MMDB</p>
+                </div>
+                <div id="searchBar" class="cell small-8 medium-9 large-10 flex">
+                    <div class="searchBar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" class="searchBar" placeholder="Search MMDB" id="search">
+                        <div class="search_results hide_all">
+                            <div class="search_container clearFloat">
+                                <div class="left">
+                                    <img src="" alt="Info">
+                                </div>
+                                <div class="right">Label</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="grid-container splash_container hide_all">
+        <fieldset>
+            <legend>Now Playing</legend>
+            <div class="grid-x grid-margin-x grid-padding-y splash_content" style=" margin-top: -40px;">
+
+            </div>
+        </fieldset>
+    </div>
+
+
+
+
+    <div class="grid-container movie_container hide_all">
+        <div class="grid-x grid-margin-x grid-padding-y ">
+
+            <section>
+                <div class="grid-container">
+                    <div class="grid-x">
+                        <fieldset>
+                            
+                            <legend>Movie Info</legend>
+                            <div class="grid-x">
+                                <div class="cell small-12 medium-4 large-5">
+                                    <img src="img/posters/fire.jpg" id="mainPoster" class="main_movie_image">
+                                </div>
+                                <div class="cell small-12 medium-8 large-7">
+                                    <div class="callout movie__details">
+                                        <div>
+                                            <p><span class="bold">Movie Name:</span><span class="movie_name"></span></p>
+                                            <p><span class="bold">IMDB Rating:</span><span class="movie_rating"></span></p>
+                                            <p><span class="bold">Release Date:</span><span class="release_date"></span></p>
+                                            <p><span class="bold">Rating:</span><span class="category">r</span></p>
+                                            <p><span class="bold">Duration:</span><span class="run_length"></span></p>
+                                            <p><span class="bold">Genre:</span><span class="genre"></span></p>
+                                            <p><span class="bold">Language:</span><span class="language"></span></p>
+                                            <p><span class="bold">Colour:</span><span class="colour"></span></p>
+                                            <p><span class="bold">Writers:</span><span class="writers">me</span></p>
+                                        </div>
+                                        <div class="summary">
+                                            <span class="bold">Plot:</span>
+                                            <p class="description">When straight-laced fire superintendent Jake Carson
+                                                and his elite team of firefighters come to the rescue of three siblings,
+                                                they quickly realize that no amount of training could prepare them for
+                                                their most challenging job yet -- babysitting.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+
+        <div class=" ">
+            <fieldset>
+                <legend>Related Movies</legend>
+                <div class="grid-x grid-margin-x grid-padding-y related_movies" style=" margin-top: -40px;">
+
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="castWrap">
+            <fieldset>
+                <legend>Cast</legend>
+                <div class="grid-x grid-margin-x grid-padding-y cast" style=" margin-top: -40px;">
+
+                </div>
+            </fieldset>
+        </div>
+
+        <div  class="didyouknowWrap">
+                <fieldset>
+                    <legend>Did You Know</legend>
+                    <div>
+                        <p class="didyouknow">
+
+                        </p>
+                    </div>
+                </fieldset>
+        </div>
+
+    </div>
+
+
+
+    <div class="grid-container people_container hide_all">
+        <div class="grid-x grid-margin-x grid-padding-y ">
+
+            <section>
+                <div class="grid-container">
+                    <fieldset>
+                        <legend class="people_name">Angelina Jolie</legend>
+
+
+                        <div class="grid-x">
+                            <div class="cell small-12 medium-4 large-4">
+                                <div class="grid-y">
+                                    <div class="cell">
+                                        <div class="callout__actor">
+                                            <img src="img/actors/a1.jpg" class="img__actor" id="mainPoster">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cell small-12 medium-8 large-8">
+                                <div class="cell">
+                                    <div class="callout__actor  peopleInfo">
+                                        <p><span class="bold yellow">Born:</span><span class="born">June 4, 1975</span></p>
+                                        <p><span class="bold yellow">Died:</span><span class="died"></span></p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="callout profile">
+                                    <p>Angelina Jolie is an Academy Award-winning actress who rose to fame after her
+                                        role in Girl,
+                                        Interrupted (1999), playing the title role in the "Lara Croft" blockbuster
+                                        movies, as well as Mr. &
+                                        Mrs. Smith (2005), Wanted (2008), Salt (2010) and Maleficent (2014). Off-screen,
+                                        Jolie has become
+                                        prominently involved in international charity projects, especially those
+                                        involving refugees. She often
+                                        appears on many "most beautiful women" lists, and she has a personal life that
+                                        is avidly covered by
+                                        the tabloid press.
+                                        <br><br>
+                                        Jolie was born Angelina Jolie Voight in Los Angeles, California. In her earliest
+                                        years, Angelina began
+                                        absorbing the acting craft from her actor parents, Jon Voight, an Oscar-winner,
+                                        and Marcheline
+                                        Bertrand, who had studied with Lee Strasberg. Her good looks may derive from her
+                                        ancestry, which is
+                                        German and Slovak on her father's side, and French-Canadian, Dutch, Polish, and
+                                        remote Huron, on her
+                                        mother's side. At age eleven, Angelina began studying at the Lee Strasberg
+                                        Theatre Institute, where
+                                        she was seen in several stage productions. She undertook some film studies at
+                                        New York University and
+                                        later joined the renowned Met Theatre Group in Los Angeles. At age 16, she took
+                                        up a career in
+                                        modeling and appeared in some music videos.
+                                        <br><br>
+                                        In the mid-1990s, Jolie appeared in various small films where she got good
+                                        notices, including Hackers
+                                        (1995) and Foxfire (1996).
+                                        <br><br>
+
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </fieldset>
+            </section>
+
+        </div>
+
+        <div class=" ">
+            <fieldset>
+                <legend>Related Movies</legend>
+                <div class="grid-x grid-margin-x grid-padding-y related_movies_people">
+
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="imageWrap">
+            <fieldset>
+                <legend>Image</legend>
+                <div class="grid-x grid-margin-x grid-padding-y peopleImages">
+
+                </div>
+            </fieldset>
+        </div>
+
+
+
+    </div>
+
+
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x min-height-60">
+                <div class="cell small-6 flex">
+                    <img src="img/logo.svg" class="logo" />
+                    <p class="logo">MMDB</p>
+                </div>
+                <div class="cell small-6 flex flex__end">
+                    <i class="fab fa-facebook social"></i>
+                    <i class="fab fa-twitter social"></i>
+                    <i class="fab fa-instagram social"></i>
+                    <i class="fab fa-youtube social"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

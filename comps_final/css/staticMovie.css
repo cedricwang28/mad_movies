@@ -1,0 +1,335 @@
+/* ****************************************************************** */
+/* Global Styles */
+/* ****************************************************************** */
+
+html {
+    background-color: #e5a00d;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #eee;
+    line-height: 1rem;
+    margin: 0;
+    width: 100vw;
+}
+
+header div,
+main div,
+footer div {
+    background: transparent;
+}
+
+main {
+    width: 100vw;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, input {
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex__end {
+    justify-content: flex-end;
+}
+
+.callout {
+    background: inherit;
+    border: none;
+}
+
+.yellow {
+    color: #e5a00d
+}
+
+/* ****************************************************************** */
+/* Header & Footer */
+/* ****************************************************************** */
+
+header, footer {
+    background: #e5a00d;
+    width: 100wv;
+    min-height: 64px;
+    overflow: hidden;
+}
+
+.logo {
+    height: 28px;
+    line-height: 28px;
+    margin: 12px 0 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+p.logo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 8px;
+}
+
+footer .logo {
+    margin-top: 16px;
+}
+
+.social {
+    color: #333;
+    font-size: 1.5rem;
+    margin-left: 12px;
+}
+
+footer .social {
+    margin-top: 8px;
+}
+
+div.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: #333;
+    color: #666;
+    margin: 12px 0 0;
+    padding: 0 12px;
+    border-radius: 8px;
+}
+
+input.searchBar {
+    font-size: 14px;
+    background: inherit;
+    color: #e5a00d;
+    border: none;
+    border-radius: 8px;
+    margin: 0;
+}
+
+input.searchBar::placeholder {
+    color: #999;
+}
+
+input.searchBar:active,
+input.searchBar:focus {
+    background: inherit;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* ****************************************************************** */
+/* Body Styles */
+/* ****************************************************************** */
+
+h1, h2 {
+    color: #e5a00d;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 16px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #eee;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+h3 {
+    color: #e5a00d;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .3rem
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#splash h3 {
+    font-size: 1.2rem;
+}
+
+#splash h4 {
+    font-size: 1.2rem;
+}
+
+span.bold {
+    font-weight: 700;
+    margin: 8px 8px 8px 0;
+}
+
+span.label {
+    font-size: 1rem;
+    font-weight: 700;
+    background: #e5a00d;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.callout.movie__details, .callout.profile {
+    padding-top: .5rem;
+    padding-left: 2rem;
+}
+
+.summary {
+    margin-top: 24px;
+}
+
+.summary p,
+.profile p {
+    text-align: justify;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.callout__custom {
+    padding: 0 1rem 1rem;
+}
+
+.callout__img {
+    padding: 0 0.5rem 1.5rem;
+}
+
+.callout__actor {
+    padding: 0 0 1rem;
+}
+
+.img__actor,
+.img__poster,
+.img__screenshot {
+    width: 100%;
+    margin-bottom: .6rem;
+}
+
+.img__actor {
+    width: 100%;
+}
+
+.img__screenshot {
+    margin-bottom: 0;
+}
+
+.img__poster {
+    width: 100%;
+    height: 100%;
+    /* max-height: 400px; */
+}
+
+.movie-slider img, .people-slider img {
+    padding: 0 0.5rem;
+}
+
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #e5a00d;
+}
+
+.slick-dots li button:before {
+    color: #333333;
+    font-size: 32px;
+}
+
+/* ****************************************************************** */
+/* Media Queries */
+/* ****************************************************************** */
+
+@media print, screen and (max-width: 40em) {
+      
+    div.searchBar {
+        margin-left: 12px;
+        padding-left: 16px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
+    h1, h2 {
+        font-size: 2rem;
+    }
+
+    #splash .callout__img {
+        padding: 0 0 1.5rem;
+    }
+
+    #mainPoster {
+        margin-bottom: 1.5rem;
+    }
+
+    .img__actor,
+    .img__poster {
+        margin-bottom: .8rem;
+    }
+
+    .img__poster {
+        margin-bottom: 
+    }
+
+    #splash h3, #relatedMovies h3, #actorMovies h3 {
+        font-size: 1.3rem;
+        padding-left: .3rem;
+    }
+    
+    #splash h4, #relatedMovies h4, #actorMovies h4 {
+        font-size: 1.3rem;
+        padding-left: .3rem;
+    }
+
+    .callout.movie__details {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .callout.movie__details, .callout.profile {
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+
+    .callout__actor {
+        padding: 0 .3rem .8rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+      .logo {
+        height: 22px;
+        line-height: 22px;
+    }
+
+    p.logo {
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo {
+      height: 20px;
+      line-height: 20px;
+  }
+
+  p.logo {
+      font-size: 20px;
+      line-height: 20px;
+  }
+}

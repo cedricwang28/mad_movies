@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MMDB</title>
+
+    <style>
+        *{
+            border: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .bg{
+            position: absolute;
+            background-color:#9dbf9f;
+            height: auto;
+            width: 100%;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        }
+        #logo{
+            width: 130px;
+            height: 130px;
+            display: block;
+            margin:0 auto;
+            margin-top:150px;
+        }
+        .left{
+            grid-column: 1/4;
+            border-right: 2px solid white;
+            padding-right: 15px;
+            
+        }
+        .right{
+            grid-column: 4/6;
+            padding-left: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+        }
+        .right p{
+            margin-bottom: 28px;
+        }
+        .right p:hover, a:hover{
+            cursor: pointer;
+            color:#3a4d57;
+        }
+        .mmdb{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 80px;
+            font-weight: bold;
+            letter-spacing: -4px;
+            color:white;
+            margin:0 auto;
+            text-align: center;  
+        }
+        a{
+            text-decoration: none;
+            color:#ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="left">
+            <img src="img/logo.svg" alt="logo" id="logo">
+            <p class="mmdb">MMDB</p>
+
+        </div>
+        <div class="right">
+            <a href="./compsPage.html"><p id="p1">I. Comps</p></a>
+            <!-- <p id="p2">II. Static Site</p> -->
+            <a href="../dynamic_site/index.html"><p>III. Dynamic Site</p></a>
+            <a href="./splashBox.html"><p id="p4">IV. Box Site (Splash)</p></a>
+            <a href="./movieBox.html"><p>V. Box Site (Movies)</p></a>
+            <a href="./actorBox.html"><p>VI. Box Site (People)</p></a>
+            <a href="./splashStatic.html"><p>VII. Static Site (Splash)</p></a>
+            <a href="./movieStatic.html"><p>VIII. Static Site (Movies)</p></a>
+            <a href="./peopleStatic.html"><p>VIII. Static Site (People)</p></a>
+            <a href="../dynamic_site/index.html"><p>X. Dynamic Site</p></a>
+        </div>
+        
+    </div>
+</body>
+</html>
